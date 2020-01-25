@@ -1,0 +1,17 @@
+[Unit]
+After=network.target
+Description=Discord Statusbot
+AssertPathExists=/path/to/statusbot/%i.json
+
+[Service]
+Type=simple
+User=statusbot
+Group=statusbot
+WorkingDirectory=/path/to/statusbot
+ExecStart=/path/to/statusbot/discord-statusbot -config /path/to/statusbot/%i.json
+PIDFile=/var/run/discord-statusbot-%i.pid
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
