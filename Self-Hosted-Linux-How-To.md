@@ -36,7 +36,7 @@ Let’s lock the account to prevent ssh logins: `usermod -L statusbot`
 Give ownership of the bot’s files to our new user: `chown -R statusbot:statusbot /path/to/bot/folder`
 
 
-**[Download/Copy](https://github.com/VinterNix/my-crap/blob/master/statusbot%40.service)** the bash file to tell the system what to execute.
+**[Download/Copy](https://github.com/VinterNix/Discord-Status-Bot-Stuff/blob/master/startscript.sh)** the bash file to tell the system what to execute.
 
 
 Upload/Create it where you would like. To keep it simple, upload it to the same directory your bot’s files are located.
@@ -46,7 +46,7 @@ Edit the file as needed with your file paths.
 Make the script executable `chmod -x startscript.sh`
 
 
-**[Download/Copy](https://github.com/VinterNix/my-crap/blob/master/statusbot%40.service)** the systemctl service file.
+**[Download/Copy](https://github.com/VinterNix/Discord-Status-Bot-Stuff/blob/master/statusbot%40.service)** the systemctl service file.
 
 
 Upload/Create it here: `/etc/systemd/system` 
@@ -68,3 +68,4 @@ For every instance of the bot, you must create a NEW config file and repeat the 
 3. `systemctl start statusbot@config`
 
 And you are done! If you require any assistance please join our **[Discord Support Server](https://discord.gg/aMDa2TB)**
+
