@@ -7,7 +7,7 @@ If you require any assistance please join our **[Discord Support Server](https:/
 (This guide assumes you know the basic operation and securement of a linux os and thus does not refer or offer steps on how to do so)
 
 
-Download the bot `wget https://cdn.movinto.net/discord-statusbot/”***-discord-statusbot-linux-amd64.zip”`
+Download the bot `wget https://cdn.movinto.net/discord-statusbot/***-discord-statusbot-linux-amd64.zip`
 
 
 Extract contents `unzip -a ***-discord-statusbot-linux-amd64.zip`
