@@ -1,3 +1,5 @@
+(Last updated 1/24/2020)
+
 #Supported Game List
 
 This list should be considered a “Work in Progress” and may not be up-to-date. More information regarding “Supported Games” can be found on the **[query.li API Docs page](https://query.li/doc/)**.
